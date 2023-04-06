@@ -1,0 +1,72 @@
+
+h1{
+    color: white;
+     font-size: 45px;
+    font-family: $primary-font;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: .15em;
+    @include breakpoint(sm){        
+        font-size: 60px;
+    }
+    @include breakpoint(md){        
+        font-size: 50px;
+    }
+    @include breakpoint(lg){        
+        font-size: 55px;
+    }
+    @include breakpoint(xlg){        
+        font-size: 60px;
+    }
+    
+     
+  }
+
+.hero{     
+    text-align: left;
+    background-color: inherit;   
+    align-items: center;
+
+   
+ 
+}
+.pad-top{
+    padding-top: 70px;
+    @include breakpoint(md){ 
+        padding-top: 80px;
+       
+    }
+   
+}
+.hero-image{
+    padding: 0 7vw;
+    @include breakpoint(sm){        
+        padding: 0 10vw 0 30vw;
+    }
+    @include breakpoint(md){        
+        padding: 0 0 0 0;
+    }
+}
+.subheading{
+    font-family: $secondary-font;   
+    color: white;
+    font-size: 20px; 
+    padding: 10px 0 20px; 
+  
+    
+    @include breakpoint(sm){        
+        font-size: 30px;
+        padding: 0; 
+    }
+    @include breakpoint(md){        
+        font-size: 22px;
+    }
+    @include breakpoint(lg){        
+        font-size: 25px;
+    }
+    @include breakpoint(xlg){        
+        font-size: 28px;
+    }
+}
+
+
